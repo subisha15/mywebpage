@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./test.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar">
+      <ul>
+        <li>
+          <a href="#" id="flag-icon">
+            <img
+              src="path/to/flag-icon.png"
+              alt="Select Country"
+              class="flag-icon"
+            />
+          </a>
+        </li>
+        <!-- Other nav items -->
+      </ul>
+    </nav>
+
+    <!-- Popup Form -->
+    <div id="popupForm" class="popup-form">
+      <div class="popup-content">
+        <span class="close-btn">&times;</span>
+        <form>
+          <label for="country-select">Select Country:</label>
+          <select id="country-select">
+            <option value="us">
+              <img src="path/to/us-flag.png" alt="USA" /> United States
+            </option>
+            <option value="uk">
+              <img src="path/to/uk-flag.png" alt="UK" /> United Kingdom
+            </option>
+            <!-- Add more countries -->
+          </select>
+
+          <label for="currency-select">Select Currency:</label>
+          <select id="currency-select">
+            <option value="usd">USD</option>
+            <option value="gbp">GBP</option>
+            <!-- Add more currencies -->
+          </select>
+
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+    </div>
+  </body>
+  <script src="./test.js"></script>
+</html>
